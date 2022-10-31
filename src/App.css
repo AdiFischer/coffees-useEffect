@@ -1,0 +1,26 @@
+/* normalize css. so we control the margin and padding, not the browser */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  background-image: url('https://raw.githubusercontent.com/bocacode/node-api-json-coffees/main/coffee-beans-bk.webp');
+  background-size: contain;
+  background-repeat: repeat-y;
+  text-align: center;
+}
+
+.menu-items__item > img {
+  border-radius: 1em;
+  max-height: 400px;
+
+}
+.menu-items__item > img:hover {
+  border-radius: 50px;
+  transition: ;
+
+}
